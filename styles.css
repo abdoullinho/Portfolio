@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(312deg,#ddebe3,#6830d9,#f402f5);
+    background-size: 180% 180%;
+    animation: gradient-animation 22s ease infinite;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes gradient-animation {
+    0% {	
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+
+
+.logo {
+
+    position: absolute;
+    top: -30px;
+    left: 4px;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+
+
+}
+.logo:hover {
+    transform: scale(1.05); 
+    transition: transform 0.1s ease; 
+  }
+
+  .menu {
+    border-bottom: 7px solid black; /* Ajoute une bordure noire en bas du menu */
+  }
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 450px;
+    margin-top: -15px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: -100px; /* Ajustement de l'espace entre chaque bouton */
+  }
+  
+  .menu li:last-child {
+    margin-right: 0; /* Supprimer la marge à droite du dernier élément de la liste */
+    
+  }
+  
+  .menu a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color:transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 70px;
+    font-family: Impact, sans-serif;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: transparent;
+    padding: 12px 20px;
+    transform: scale(1.05); 
+    transition: transform 0.1s ease; 
+    color: #000000;
+  }
+
+
+
+
+.P1 {
+  color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  font-family: Impact, sans-serif;
+  font-size: 90px;
+  margin-top: 65px;
+  margin-left: 30px;
+position: absolute;
+}
+.P1:hover {
+  transform: scale(1.1); 
+  transition: transform 0.1s ease; 
+}
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: transparent; /* Définir la couleur de fond comme transparent */
+  --text-color: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  place-content: center;
+  background-color: var(--background-color);
+  min-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(1.5rem, 1rem + 18vw, 15rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.wrapper > div {
+  grid-area: 1/1/-1/-1;
+}
+
+.top {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 48%, 0% 58%);
+}
+
+.bottom {
+  clip-path: polygon(0% 60%, 100% 50%, 100% 100%, 0% 100%);
+  color: var(--text-color); /* Définir la couleur du texte */
+  background: -webkit-linear-gradient(177deg, transparent 53%, var(--text-color) 65%);
+  background: linear-gradient(177deg, transparent 53%, var(--text-color) 65%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  transform: translateX(-0.02em);
+}
