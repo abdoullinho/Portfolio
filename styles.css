@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(312deg,#ddebe3,#6830d9,#f402f5);
+  background-color: #19112b ;
   background-size: 180% 180%;
   animation: gradient-animation 10s ease infinite;
   background-attachment: fixed;
@@ -39,7 +39,14 @@ body {
 }
 
 .menu {
-  border-bottom: 7px solid black; /* Ajoute une bordure noire en bas du menu */
+  border-bottom: 7px solid black;
+  
+  background: linear-gradient(312deg,#ddebe3,#6830d9,#f402f5);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;/* Ajoute une bordure noire en bas du menu */
   
 }
 .menu ul {
@@ -158,9 +165,9 @@ transition: transform 0.1s ease;
 }
 
 .text1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   font-size: 40px;
-  color: #000000;
+  color: #ffffff;
   align-content: center;
   margin-left: 600px;
   margin-top: -40px;
