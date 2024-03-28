@@ -43,7 +43,7 @@ body {
   
   background: linear-gradient(312deg,#ddebe3,#6830d9,#f402f5);
   background-size: 180% 180%;
-  animation: gradient-animation 10s ease infinite;
+  animation: gradient-animation 3s ease infinite;
   background-attachment: fixed;
   margin: 0;
   padding: 0;/* Ajoute une bordure noire en bas du menu */
@@ -123,7 +123,7 @@ transition: transform 0.1s ease;
 }
 .typewriter p {
   font-size: 70px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family : "Lilita One", sans-serif ;
   font-weight: lighter;
   overflow: hidden;
   white-space: nowrap;
@@ -165,12 +165,12 @@ transition: transform 0.1s ease;
 }
 
 .text1 {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family : "Lilita One", sans-serif ;
   font-size: 40px;
   color: #ffffff;
   align-content: center;
   margin-left: 600px;
-  margin-top: -40px;
+  margin-top: 10px;
  
 
 }
