@@ -1,5 +1,5 @@
 body {
-  background-color: #19112b ;
+  background-color: #000000 ;
   background-size: 180% 180%;
   animation: gradient-animation 10s ease infinite;
   background-attachment: fixed;
@@ -172,5 +172,91 @@ transition: transform 0.1s ease;
   margin-left: 600px;
   margin-top: 10px;
  
+
+}
+
+.cv {
+  margin-top: 20px;
+  margin-left: 170px;
+  height: 770px;
+  transition: transform 0.4s ease; 
+
+}
+
+.cv:hover {
+  transform: scale(1.03); 
+}
+.bouton-telecharger {
+  font-family: "Lilita One", sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  padding: 1px 20px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #6830d9; /* Bordure rose */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  height: 40px; 
+  width: 190px;
+  text-align: center;
+  padding-top: 8px;
+  margin-top: 360px;
+  margin-left: 280px;
+  
+}
+
+.bouton-telecharger:hover {
+  background-color: #6830d9; /* Légère variation de couleur au survol */
+
+}
+
+
+.bouton2{
+  font-family: "Lilita One", sans-serif;
+  background:#6830d9;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin-top: 76px;
+  margin-left: 480px;
+  margin-right: -400px;
+}
+.bouton2:hover{
+  background:#000000;
+  color:#ffffff;
+}
+.bouton2:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #6830d9;
+  transition:400ms ease all;
+}
+.bouton2:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.bouton2:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+.text2 {
+  font-family : "Lilita One", sans-serif ;
+  font-size: 40px;
+  color: #ffffff;
+margin-top: 350px;
+margin-left: -950px;
 
 }
