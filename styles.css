@@ -218,15 +218,18 @@ transition: transform 0.1s ease;
   color:#fff;
   border:none;
   position:relative;
-  height:60px;
+  height:250px;
+  width: auto;
   font-size:1.6em;
   padding:0 2em;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  margin-top: 76px;
-  margin-left: 480px;
-  margin-right: -400px;
+  margin-top: 336px;
+  margin-left: 150px;
+  margin-right: 190px;
+
+  
 }
 .bouton2:hover{
   background:#000000;
@@ -252,7 +255,7 @@ transition: transform 0.1s ease;
   width:100%;
   transition:800ms ease all;
 }
-.text2 {
+.text3 {
   font-family : "Lilita One", sans-serif ;
   font-size: 40px;
   color: #ffffff;
@@ -260,3 +263,4 @@ margin-top: 350px;
 margin-left: -950px;
 
 }
+
