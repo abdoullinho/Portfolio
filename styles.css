@@ -214,8 +214,8 @@ transition: transform 0.1s ease;
 
 .bouton2{
   font-family: "Lilita One", sans-serif;
-  background:#6830d9;
-  color:#fff;
+  background:#ffffff;
+  color:#000000;
   border:none;
   position:relative;
   height:250px;
@@ -225,7 +225,7 @@ transition: transform 0.1s ease;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  margin-top: 336px;
+  margin-top: 306px;
   margin-left: 150px;
   margin-right: 190px;
 
@@ -243,7 +243,7 @@ transition: transform 0.1s ease;
   height:2px;
   width:0;
   background: #6830d9;
-  transition:400ms ease all;
+  transition:200ms ease all;
 }
 .bouton2:after{
   right:inherit;
@@ -253,7 +253,7 @@ transition: transform 0.1s ease;
 }
 .bouton2:hover:before,button:hover:after{
   width:100%;
-  transition:800ms ease all;
+  transition:200ms ease all;
 }
 .text3 {
   font-family : "Lilita One", sans-serif ;
