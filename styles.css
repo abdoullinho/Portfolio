@@ -219,15 +219,15 @@ transition: transform 0.1s ease;
   border:none;
   position:relative;
   height:250px;
-  width: auto;
+  width: 300px;
   font-size:1.6em;
   padding:0 2em;
   cursor:pointer;
   transition:800ms ease all;
   outline:none;
-  margin-top: 306px;
-  margin-left: 150px;
-  margin-right: 190px;
+  margin-top: 336px;
+  margin-left: 160px;
+  margin-right: 200px;
 
   
 }
@@ -264,3 +264,81 @@ margin-left: -950px;
 
 }
 
+.bouton2stage1{
+
+
+  font-family: "Lilita One", sans-serif;
+  background:#ffffff;
+  color:#000000;
+  border:none;
+  position:relative;
+  height:60px;
+  width: auto;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  margin-top: 86px;
+  margin-left: 380px;
+  margin-right: -190px;
+}
+.bouton2stage1:hover{
+  background:#000000;
+  color:#ffffff;
+}
+.bouton2stage1:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #6830d9;
+  transition:300ms ease all;
+}
+.bouton2stage1:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.bouton2stage1:hover:before,button:hover:after{
+  width:100%;
+  transition:300ms ease all;
+}
+
+.mms{
+height: 120px;
+margin-left: 313px;
+margin-top: 7px;
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+
+}
+
+.mms :hover {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+
+.funelior{
+  height: 120px;
+  margin-left: 986px;
+  margin-top: -119px;
+  -webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+  
+  }
+
+  .funelior :hover {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  .text3{
+
+font-size: 30px;
+margin-left: -1000px;
+
+  }
